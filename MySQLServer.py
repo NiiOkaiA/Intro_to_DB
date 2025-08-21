@@ -15,7 +15,7 @@ try:
     cursor.execute(sql)
 
 except:
-    mysql.connector.error
+    mysql.connector.Error
 
 print("Database 'alx_book_store' created successfully")
       
